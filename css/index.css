@@ -5,7 +5,7 @@
 }
 :root{
  --main-margin:10px 20px;
- --color:red;
+ /* --color:red; */
 }
 .main-header{
   margin: var(--main-margin);
@@ -94,3 +94,138 @@ h1{
   display: flex;
 }
 
+/* .hero-header{
+  display: flex;
+} */
+
+.hero-header,
+.nav-links,
+nav{
+  display: flex;
+  
+}
+
+.nav-links nav div {
+  display: flex;
+  padding: 9px;
+  flex-direction: column;
+  /* background-color: black; */
+  
+}
+.nav-links{
+ width: 80%;
+ overflow: hidden;
+ scrollbar-width: none;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  white-space: nowrap;
+  
+}
+.hero-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 10px;
+    align-items: center;
+    /* background-color: red; */
+}
+nav {
+    display: flex;
+    padding: 5px;
+    gap: 30px;
+}
+.nav-links div{
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+.nav-links div h3:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+
+.filter-links {
+    display: flex;
+    gap: 8px;
+    margin-left: 10px; 
+    font-size: 10px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid grey;
+  border-radius:20px ;
+  padding: 5.5px 10px;
+  gap: 5px;
+  margin-left: 20px; 
+
+}
+
+.filter-taxes {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid grey;
+  border-radius:20px;
+  padding: 5.5px 10px;
+  gap: 5px;
+  margin-right: 27px;   
+}
+.taxes i {
+  color: gray;
+  font-size: 20px;
+}
+.taxes{
+  display: flex;
+}
+.filter-links:hover {
+  cursor: pointer;
+  color: green;
+}
+.heady{
+  border: 1px solid;
+  border-radius: 10px;
+}
+.container{
+  margin: 10px;
+}
+.master{
+  border: 1px solid;
+  padding: 10px;
+  height: 310px;
+  border-radius: 10px;
+}
+.container,
+.card,
+img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.place{
+  text-transform: uppercase;
+  margin-left: -12px;
+}
+.rates{
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.raty{
+  color: blue;
+}
+.fa-regular:not(:nth-child(6)){
+  color: gold;
+}
+.mainer{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 120px;
+  padding-left: 10px;
+}
+body{
+  padding: 0px 10px;
+}
